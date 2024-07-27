@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Movie Table</title>
+    <style>
+        /* Style for the table, setting a black border */
+        table {
+            border: 2px solid black;
+        }
+
+        /* Style for table headers and cells, setting a black border and center-aligning text */
+        th, td {
+            border: 2px solid black;
+            text-align: center;
+        }
+
+        /* Style for images inside the table, setting a fixed height */
+        table img {
+            height: 200px;
+        }
+
+        /* Class to set text color to red */
+        .red-text {
+            color: red;
+        }
+
+        /* Class to add padding to the top and bottom of the table cells */
+        .pad-table {
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+
+        /* Class to set background color to red and text color to white */
+        .red-bg {
+            background-color: red;
+            color: white;
+        }
+
+        /* Class to set a fixed height for logo images */
+        .logo-img {
+            height: 60px;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tr>
+        <!-- Table headers with padding -->
+        <th class="pad-table">The Lord of the Rings</th>
+        <th class="pad-table">Matrix</th>
+        <th class="pad-table">The Godfather</th>
+    </tr>
+    <tr>
+        <!-- Table cells with movie posters -->
+        <td><img
+                alt="The Lord of the Rings movie poster"
+                src="https://github.com/ShahariarRabby/CS_621Q_assignments/blob/main/lab01/The_Lord_of_the_Rings.jpg?raw=true"></td>
+        <td><img alt="The Matrix movie poster"
+                 src="https://github.com/ShahariarRabby/CS_621Q_assignments/blob/main/lab01/Matrix.jpg?raw=true"></td>
+        <td><img alt="The Godfather movie poster"
+                 src="https://github.com/ShahariarRabby/CS_621Q_assignments/blob/main/lab01/The_Godfather.jpg?raw=true"></td>
+    </tr>
+    <tr>
+        <!-- Table cells with movie release years -->
+        <td class="pad-table">2001</td>
+        <td class="red-text pad-table">1999</td>
+        <td class="red-bg pad-table">1972</td>
+    </tr>
+    <tr>
+        <!-- Table cells with IMDb links -->
+        <td><a href="https://www.imdb.com/title/tt0120737/">Imdb link</a></td>
+        <td><a href="https://www.imdb.com/title/tt0133093/">Imdb link</a></td>
+        <td><a href="https://www.imdb.com/title/tt0068646/"><img alt="IMDb logo"
+                                                                 class="logo-img"
+                                                                 src="https://github.com/ShahariarRabby/CS_621Q_assignments/blob/main/lab01/IMDb_Logo.png?raw=true"></a></td>
+    </tr>
+</table>
+</body>
+</html>

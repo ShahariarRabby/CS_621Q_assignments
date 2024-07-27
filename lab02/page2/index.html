@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shahariar Rabby - Personal Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <div class="container">
+            <img src="profile.jpg" class="profile-photo" alt="Profile Photo">
+            <h1>Hello! I'm Shahariar Rabby</h1>
+            <p>I'm a self-taught Machine Learning, Deep Learning, Data Scientist & Software Engineer focused on building intelligent machines with creative interfaces & experiences.</p>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section bg-light">
+        <div class="container">
+            <h2>Resume</h2>
+            <p>Currently, I am working at UAB Lung Health Center as a Graduate Research Assistance and Ph.D. student...</p>
+            <p><strong>Skills:</strong> Python, C, HTML, CSS/Sass, PHP, SQL, JAVA</p>
+            <p><strong>Frameworks:</strong> Keras, Tensorflow, Pytorch, Laravel, Django, Flask, Fast Api</p>
+            <p><strong>Tools:</strong> Git & Github, Bash, Latex</p>
+            <p><strong>Design:</strong> Photoshop, Illustrator, Lightroom, Adobe XD, User Testing</p>
+            <!-- Embed PDF -->
+            <div class="pdf-container">
+                <embed src="resume.pdf" type="application/pdf" width="100%" height="600px" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="mailto:shahariarrabby@gmail.com" method="post" enctype="text/plain" class="form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+            <p>Follow me on:
+                <a href="https://github.com/yourusername" target="_blank">GitHub</a>,
+                <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>,
+                <a href="https://twitter.com/yourusername" target="_blank">Twitter</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section bg-light">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <table>
+                <tr>
+                    <td><img src="https://via.placeholder.com/150" alt="Photo 1"></td>
+                    <td><img src="https://via.placeholder.com/150" alt="Photo 2"></td>
+                    <td><img src="https://via.placeholder.com/150" alt="Photo 3"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://via.placeholder.com/150" alt="Photo 4"></td>
+                    <td><img src="https://via.placeholder.com/150" alt="Photo 5"></td>
+                    <td><img src="https://via.placeholder.com/150" alt="Photo 6"></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Shahariar Rabby</p>
+    </footer>
+
+    <!-- External JS -->
+    <script src="scripts.js"></script>
+</body>
+</html>
