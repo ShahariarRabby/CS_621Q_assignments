@@ -55,7 +55,7 @@ todo-app/
 │   └── ...
 ├── package.json
 └── README.md
-
+```
 
 ## Components
 
