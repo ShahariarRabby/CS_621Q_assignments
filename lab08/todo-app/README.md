@@ -12,17 +12,27 @@ A simple and elegant To-Do List application built with React. This application a
 
 ## Installation
 
-1. Clone the repository:
+1. **Install Node.js and npm**
+   - Node.js is the JavaScript runtime, and npm is the package manager for Node.js. You'll need both to create and manage your React project.
+   - **Download Node.js**: Go to the [Node.js download page](https://nodejs.org/) and download the LTS version for your operating system.
+   - **Install Node.js**: Run the installer and follow the prompts.
+   - Once installed, you can check the versions by running the following commands in your terminal or command prompt:
+     ```sh
+     node -v
+     npm -v
+     ```
+
+2. Clone the repository:
     ```sh
     git clone https://github.com/ShahariarRabby/CS_621Q_assignments.git
     ```
 
-2. Navigate to the project directory:
+3. Navigate to the project directory:
     ```sh
     cd lab08/todo-app
     ```
 
-3. Install the dependencies:
+4. Install the dependencies:
     ```sh
     npm install
     ```
